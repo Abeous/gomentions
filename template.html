@@ -1,0 +1,17 @@
+<html>
+    <body>
+        <ul>
+            {{range .Logs}}
+                <li>{{.Message}}</li>
+            {{end}}
+        </ul>
+        <style>
+            body {
+                background-color: #080808;
+            }
+            ul {
+                list-style-type: none;
+            }
+        </style>
+    </body>
+</html>
